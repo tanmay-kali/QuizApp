@@ -12,20 +12,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        //orientaion
-        ///gravity
-        //paddding 16dp
-
         <TextView
             android:id="@+id/question_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:gravity="center_vertical"
+            android:paddingLeft="15dp"
             android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold"
+            android:textSize="20sp"
             tools:text="What country does this flag belong to ?">
 
         </TextView>

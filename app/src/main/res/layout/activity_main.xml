@@ -18,7 +18,7 @@
         android:textStyle="bold"
         android:layout_marginBottom="15dp"
         android:textColor="@color/white"
-        android:text="Country Quiz"/>
+        android:text="Country Flag Quiz"/>
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
