@@ -15,18 +15,18 @@
         //orientaion
         ///gravity
         //paddding 16dp
+
         <TextView
             android:id="@+id/question_tv"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
+            android:layout_margin="10dp"
             android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
             android:textColor="@color/black"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
             android:textSize="15sp"
             android:textStyle="bold"
-            tools:text="What country does this flag belong to?">
+            tools:text="What country does this flag belong to ?">
 
         </TextView>
 
@@ -71,6 +71,7 @@
             android:id="@+id/option_ll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:orientation="vertical"/>
         <Button
             android:id="@+id/button"
@@ -79,6 +80,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="Submit"
+            android:layout_margin="10dp"
             android:textStyle="bold" />
     </LinearLayout>
 
